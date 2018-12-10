@@ -1,0 +1,77 @@
+*
+{	
+    margin: 0px;
+	padding: 0px;
+}
+
+header
+{
+	background-image:linear-gradient( rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("pic1.jpg");
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+
+}
+.main-nav
+{
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+.main-nav li
+{
+	display: inline-block;
+}
+.main-nav li a
+{
+	font-family: roboto;
+	font-size: 15px;
+	text-decoration: none;
+	padding:5px 20px;
+	color: white;
+}
+.main-nav li .active a
+{
+	border: 1px solid white;
+}
+.main-nav li a:hover
+{
+	border: 1px solid white;
+}
+.logo img
+{
+	width: 150px;
+	height: auto;
+}
+.hero
+{
+	position: absolute;
+	width: 1200px;
+	margin-top: 0px;
+	margin-left: 0px;
+
+
+}
+h1
+{
+	color: white;
+	text-transform: uppercase;
+	font-size: 70px;
+	text-align: center;
+	margin-top: 250px;
+
+}
+.botton
+{
+	margin-top: 370px;
+	margin-left: 440px;
+}
+.btn
+{
+	border: 1px solid white;
+	color: white;
+	text-decoration: none;
+	margin-right: 10px;
+	text-transform: uppercase;
+	font-size: 13px;
+}
